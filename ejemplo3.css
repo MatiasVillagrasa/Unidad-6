@@ -1,0 +1,29 @@
+.contenedor{
+    border: 5px outset #1C6EA4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+}
+
+.item:first-child{
+    background-color: red;
+}
+
+.item:nth-child(even){
+    background-color: blue;
+}
+
+.item:last-child{
+    background-color: green;
+}
+
+span{
+    position: relative;
+    top: 50%;
+}
